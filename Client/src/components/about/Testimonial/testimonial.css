@@ -1,0 +1,42 @@
+.image-text-slider {
+      width: 90%;
+      margin: 0 auto;
+  }
+  
+  .slide {
+      text-align: center;
+      margin-top: 5%;
+
+  }
+  
+  .slide img {
+      width: 1200%;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      display: block;
+      margin: 0 auto;
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  .slide p {
+      margin-top: 10px;
+      font-size: 15px;
+      color: #070707;
+      font-weight: 700;
+      font-family: Arial, Helvetica, sans-serif;
+
+  }
+  
+ .hh{
+      margin-left: 41%;
+      margin-top:2%;
+      margin-bottom: 2%;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 600;
+      font-size: 30px;
+
+;
+ }

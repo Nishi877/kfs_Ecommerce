@@ -1,0 +1,273 @@
+/* .hero_section{
+    background-image: url("https://kfsfitness.com/wp-content/uploads/2022/02/gym-setup-consultant-500x500-1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+} */
+.hero_section{
+  background-position: center;
+  max-width: 1350px;
+  position: relative;
+  margin-left: 2%;
+  background-repeat: no-repeat;
+   max-height: 650px;
+   animation: slider 15s linear infinite; 
+   background-image:url("https://i.pinimg.com/originals/c5/8e/02/c58e02a0893c744a5de91315268347d9.jpg");
+   background-size: 100%;
+   animation-duration: s;
+  }
+
+@keyframes slider{
+    0%{ background-image:url("https://i.pinimg.com/originals/c5/8e/02/c58e02a0893c744a5de91315268347d9.jpg");
+       background-repeat: repeat;
+       background-size: cover;}
+    25%{ background-image:url("https://confidentialguides-com.s3.eu-west-1.amazonaws.com/app/uploads/2022/10/Image-06-10-2022-at-14.21.jpg");
+       background-repeat: repeat;
+       background-size: cover;}
+    50%{ background-image:url("https://curtishealth.com/wp-content/uploads/kinggeorgefitnesscentre-resized.jpg");
+       background-repeat: repeat;
+       background-size: cover;}
+    75%{ background-image:url("https://img.freepik.com/free-photo/3d-gym-equipment_23-2151114163.jpg");
+        background-repeat: repeat;
+        background-size: cover;}
+     100%{ background-image:url("https://www.what-franchise.com/images/uploads/companies/Golds_Gym_banner.jpg");
+        background-repeat: repeat;
+        background-size: cover;}
+}   
+
+/* === removing default button style ===*/
+/* .button {
+    margin: 0;
+    height: auto;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+  }
+    /* From Uiverse.io by satyamchaudharydev */ 
+/* this button is inspired from this -- s://www.newline.co/pricing */
+/* From Uiverse.io by ryota1231 */ 
+/* From Uiverse.io by ryota1231 */ 
+.animated-button {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 16px 36px;
+  border: 4px solid;
+  border-color: transparent;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 100px;
+  font-weight: 600;
+  color: #080808;
+  box-shadow: 0 0 0 2px #ffffff;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button svg {
+  position: absolute;
+  width: 20px;
+  fill: #1f387e;
+  z-index: 9;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .arr-1 {
+  right: 16px;
+}
+
+.animated-button .arr-2 {
+  left: -25%;
+}
+
+.animated-button .circle {
+  position: absolute;
+  top: 10%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 20px;
+  background-color: #c5e5e4;
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .text {
+  position: relative;
+  z-index: 1;
+  transform: translateX(-12px);
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button:hover {
+  box-shadow: 0 0 0 12px transparent;
+  color: #212121;
+  border-radius: 12px;
+}
+
+.animated-button:hover .arr-1 {
+  right: -25%;
+}
+
+.animated-button:hover .arr-2 {
+  left: 16px;
+}
+
+.animated-button:hover .text {
+  transform: translateX(12px);
+}
+
+.animated-button:hover svg {
+  fill: #1f387e;
+}
+
+.animated-button:active {
+  scale: 0.95;
+  box-shadow: 0 0 0 4px greenyellow;
+}
+
+.animated-button:hover .circle {
+  width: 220px;
+  height: 220px;
+  opacity: 1;
+}
+
+
+   */
+
+  .pt-1{
+    color:rgb(228, 166, 8);
+  }
+
+  
+
+  /* hover */
+  .button:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color))
+  } */
+
+  /* contact style */
+
+  .contact-header{
+    background-image: url("https://img.freepik.com/premium-photo/two-muscular-bearded-tattoed-athletes-training-gym_136403-4667.jpg?w=740");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: multiply;
+  }
+
+  /* contact-form style */
+  
+input[type=text], select, textarea {
+  width: 100%;
+  /* padding: 12px; */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  /* margin-top: 6px; */
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: royalblue;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:rgb(71, 103, 200);
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+input[type=number]::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* infifnite scroll */
+.container {
+  width: 100%;
+  height: 2.5rem;
+  font-family: Montserrat;
+  position: relative;
+  overflow: hidden;
+  white-space: nowrap;
+  background: #000;
+  color: #fff;
+}
+.container .scroll {
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: fit-content;
+  white-space: nowrap;
+  animation: loop 30s linear infinite;
+}
+.fade {
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(
+      90deg,
+      #000,
+      transparent 30%,
+      transparent 90%,
+      #000
+  );
+
+}
+@keyframes loop {
+  0% {transform: translateX(0%);}
+  100% {transform: translateX(-50%);}
+}
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0 0.2rem;
+  color: #e2e8f0;
+  font-size: .9rem;
+  background-color: #152c41;
+  padding: 0.7rem 1rem;
+  margin: 0rem 1rem;
+  border-radius: 0.4rem;
+  white-space: nowrap;
+  box-shadow:
+  0 0.1rem 0.2rem #00000033,
+  0 0.1rem 0.5rem #0000004d,
+  0 0.2rem 01.5rem #00000066,
+}
+.first_head{
+  text-shadow: 1px 0 black, 0 2px black,  2px 0 black, 0 2px black;
+}
+.first_head1{
+  text-shadow: -1px 0 black, 0 -1px black,  -1px 0 black, 0 -1px black;
+}
+.head{
+  margin-top: 5%;
+  margin-left: 42%;
+  
+
+}
+.head h1{
+  font-size: 30px;
+  font-weight: 900px;
+  font-family: Arial, Helvetica, sans-serif;
+}

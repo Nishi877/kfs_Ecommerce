@@ -1,0 +1,56 @@
+.how-section1{
+      margin-top:250%;
+      padding: 10%;
+  }
+  .how-section1 h4{
+      color: #0e0d0d;
+      font-weight: bold;
+      font-size: 30px;
+   }
+.how-section1 p{
+      color:rgb(13, 13, 13);
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 500;
+      margin-top: 5%;
+      font-size:20px;
+  }
+  
+  .how-section1 .row
+  {
+      margin-top: 15%;
+    margin-left: -20%;
+padding: 0% 10% 0% 10%;
+    width: 140%;
+  }
+ 
+  .how-img img{
+      height: 100%;
+      width:340%;
+  }
+
+  .col-md-6 .abc {
+      height: 70%;
+      width:280%;
+  }
+  
+  .head1{
+    margin-right:-750%;
+    margin-top: -130%;
+   margin-bottom: 20%;
+    }
+    
+    
+    .head1 h1
+    {
+          color:black;
+    font-size: 36.6px;
+          font-weight: 1000;
+          font-family: oswald, sans-serif;
+          margin-left: 40%;
+       
+    }
+     
+    .abc{
+        height: 250%;
+        width: 250%;
+    }
